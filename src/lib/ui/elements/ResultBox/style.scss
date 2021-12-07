@@ -1,0 +1,22 @@
+.ur-result-box {
+  padding: 1rem 0;
+  height: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  padding: .6rem;
+}
+
+.ur-result-text {
+  width: 100%;
+  margin: 0;
+  font-size: .8rem;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .ur-result-text {
+    font-size: .8rem;
+  }
+}

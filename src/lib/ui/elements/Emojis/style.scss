@@ -1,0 +1,49 @@
+
+.ur-emojis {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  padding: .6rem;
+}
+
+
+.ur-emoji-box {
+  position: relative;
+  margin: 0 2%;
+  width: 16%;
+  height: auto;
+}
+
+.ur-emoji {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.ur-emoji:hover {
+  transform: scale(1.1);
+}
+
+.ur-emoji-hint-box {
+  position: absolute;
+  top: -30px;
+  left: -10%;
+  display: none;
+  width: 120%;
+  justify-content: center;
+  height: 2rem;
+  overflow: visible;
+}
+
+.ur-emoji:hover ~ .ur-emoji-hint-box {
+  display: flex !important;
+}
+
+.ur-emoji-hint {
+  text-align: center;
+  font-size: .8rem;
+  line-height: 2rem;
+  margin: 0;
+  color: #007bff;
+}

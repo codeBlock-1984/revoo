@@ -1,0 +1,39 @@
+#ur-root {
+  position: relative;
+}
+
+.ur-btn-star,
+.ur-btn-emoji,
+.ur-btn-comment,
+.ur-btn-star-comment-group,
+.ur-btn-emoji-comment-group {
+  color: #007bff;
+}
+
+.ur-btn-star:hover,
+.ur-btn-emoji:hover,
+.ur-btn-comment:hover,
+.ur-btn-star-comment-group:hover,
+.ur-btn-emoji-comment-group:hover {
+  border-bottom: solid 1px #007bff;
+}
+
+#ur-box-user-reviews {
+  width: 100%;
+}
+
+.ur-normal {
+  color: #888888;
+}
+
+.ur-success {
+  color: #149908 !important;
+}
+
+.ur-error {
+  color: #ff1133 !important;
+}
+
+.ur-show {
+  display: flex !important;
+}

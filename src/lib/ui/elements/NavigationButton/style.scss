@@ -1,0 +1,18 @@
+.ur-navigation-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: 100%;
+  margin: 0 .5rem;
+}
+
+.ur-navigation-button {
+  width: .8rem;
+  height: auto;
+  object-fit: contain;
+}
+
+.ur-navigation-button[data-active='true'] {
+  cursor: pointer;
+}

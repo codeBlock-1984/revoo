@@ -1,0 +1,21 @@
+.ur-vote-box {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.ur-vote-icon {
+  width: 1rem;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.ur-vote-text {
+  font-size: 1rem;
+  line-height: 1rem;
+  margin: 0;
+}
